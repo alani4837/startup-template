@@ -1,59 +1,127 @@
-# Modern Startup Website
+# Shareflyt - AI Chat Application Landing Page
 
-![Showcase Image](https://i.ibb.co/2y7hTzr/Screenshot-2024-05-19-232554.png)
+A modern, responsive landing page for an AI chat application built with React, Vite, and Tailwind CSS. This project showcases a beautiful UI design with interactive elements, animations, and a professional layout.
 
-This is a modern startup website, made with React.js & TailwindCSS. The whole design is made to be modern, simple and eye-catching. You may use this as project as a starting point for your startup, but make sure you give this repo a star :)
+![Shareflyt Landing Page](public/api/placeholder/1200/630)
 
-<a href="https://bitbuster-startup-website.vercel.app">View Website</a>
+## 🚀 Features
 
+- **Modern Design**: Sleek, contemporary UI with gradient effects and animations
+- **Fully Responsive**: Works seamlessly across all device sizes
+- **Interactive Elements**: Smooth animations and transitions
+- **Performance Optimized**: Built with Vite for lightning-fast development and production builds
+- **Sections Include**:
+  - Hero section with animated elements
+  - Features showcase
+  - Pricing plans
+  - Product roadmap
+  - Collaboration tools overview
+  - Services breakdown
+  - Footer with social links
 
-## Features
+## 🛠️ Technologies Used
 
--  [x]  **Beautiful Sections**: Includes hero, services, features, how to use, roadmap, pricing sections.
+- React 18
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Just Parallax
+- Scroll Lock
 
--  [x]  **Parallax Animations**: Engaging effects triggered by mouse movement and scrolling
+## 📦 Installation
 
--  [x]  **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
-
--  [x]  **Responsive**: Ensures seamless functionality and aesthetics across all devices
-
--  [x]  **Best Practices**: Code architecture and reusability
-
-
-## Getting Started
-### Prerequisites
-
-- Node.js (version 12 or higher)
-  
-### Installation
-
-1. Clone the repository to your local machine:
-
+1. Clone the repository:
 ```bash
-
-git clone https://github.com/0xBitBuster/startup-website.git
-
+git clone https://github.com/alani4837/startup-template.git
 ```
 
-2. Install the dependencies:
+2. Navigate to the project directory:
 ```bash
+cd shareflyt-landing
+```
 
+3. Install dependencies:
+```bash
 npm install
-
 ```
 
-### Usage
-
-To start the server, run:
-
+4. Start the development server:
 ```bash
-
 npm run dev
-
 ```
 
-By default, the web application runs on `http://localhost:5173`
+5. Build for production:
+```bash
+npm run build
+```
 
-## License
+## 🎨 Customization
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Styling
+
+The project uses Tailwind CSS for styling. Main configuration can be found in:
+- `tailwind.config.js`: Theme configuration, colors, fonts, etc.
+- `src/index.css`: Global styles and CSS variables
+
+### Components
+
+All components are located in the `src/components` directory and are organized as follows:
+- `Button.jsx`: Reusable button component
+- `Navbar.jsx`: Navigation bar component
+- `Section.jsx`: Base section component
+- And more...
+
+### Assets
+
+Images and SVGs are stored in the `src/assets` directory, organized by section and type.
+
+## 🔧 Project Structure
+
+```
+shareflyt-landing/
+├── src/
+│   ├── assets/          # Images, SVGs, and other static files
+│   ├── components/      # Reusable components
+│   ├── sections/        # Page sections
+│   ├── App.jsx         # Main application component
+│   └── main.jsx        # Application entry point
+├── public/             # Public assets
+├── index.html          # HTML template
+└── package.json        # Project dependencies and scripts
+```
+
+## 📱 Browser Support
+
+The landing page is compatible with the latest versions of:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## ✨ Credits
+
+- Design inspiration from modern SaaS and AI platforms
+- Icons and illustrations from various sources (see assets folder)
+- Font families: Sora, Source Code Pro, and Space Grotesk
+
+## 🚨 Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
+
+---
+
+Built with ❤️ using React and Tailwind CSS
