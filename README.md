@@ -2,7 +2,6 @@
 
 A modern, responsive landing page for an AI chat application built with React, Vite, and Tailwind CSS. This project showcases a beautiful UI design with interactive elements, animations, and a professional layout.
 
-![Shareflyt Landing Page](public/api/placeholder/1200/630)
 
 ## 🚀 Features
 
